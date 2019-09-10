@@ -16,7 +16,7 @@ public class TestApp {
         StringBuffer response = new StringBuffer("[");
         JSONParser parser = new JSONParser();
 
-            try (Reader reader = new FileReader("E:\\Codebase\\DataFormatter\\testproject\\src\\main\\resources\\testdata.json")) {
+            try (Reader reader = new FileReader("{filepath}\\testdata.json")) {
                 StringBuilder keyStringBuilder = new StringBuilder("(\"");
                 StringBuilder entries = new StringBuilder("{\"entities\":[");
 
